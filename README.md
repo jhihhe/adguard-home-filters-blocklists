@@ -1,6 +1,7 @@
 # adguard-home-filters-blocklists
 adguard-blocklist adguard home 规则备份
 一共有接近两百万条规则，基本上覆盖了现有的所有规则
+手动添加url或从第五行复制到最后一行，插入到openwrt的adguard home服务的手动设置页面：从 private_key_path: " " filters:这两行到whitelist_filters: []  user_rules: []这两行
 filters:
 - enabled: true
   url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
