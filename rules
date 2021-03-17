@@ -2,7 +2,7 @@ bind_host: 0.0.0.0
 bind_port: 3000
 beta_bind_port: 0
 users:
-- name: 486956@gmail.com
+- name: ******@gmail.com
   password: $2a$10$nJPeEpiayBearR2mCd.YauaPJcjIDN7gVeE5krZSGn/9zuXvhO9Ge
 http_proxy: ""
 language: ""
