@@ -1,8 +1,34 @@
-# adguard-home-filters-blocklists
-adguard-blocklist adguard home 规则备份
-一共有接近两百万条规则，基本上覆盖了现有的所有规则
-手动添加url或从第五行复制到最后一行，插入到openwrt的adguard home服务的手动设置页面：从 private_key_path: " " filters:这两行到whitelist_filters: []  user_rules: []这两行
+# 🛡️ AdGuard Home Filters Blocklists
+
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/adguard-home-filters-blocklists?style=flat-square)](https://github.com/yourusername/adguard-home-filters-blocklists/stargazers)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+
+> 全网最全面的 AdGuard Home 过滤规则集合，累计收录近 **200万条** 规则
+
+## 📦 特性亮点
+
+- ✅ 整合 **30+** 个优质过滤规则源
+- 🌍 覆盖多国地区（中国、印尼、伊朗、意大利等）
+- 🛡️ 包含广告过滤、隐私保护、恶意网站拦截等分类
+- 🔄 持续维护更新，兼容 OpenWrt 等主流平台
+
+## 🚀 快速开始
+
+### 手动配置（推荐）
+1. 登录 OpenWrt AdGuard Home 管理界面
+2. 定位到 `手动设置` -> `filters:` 配置段
+3. 复制以下配置内容插入到指定位置：
+
+```yaml
+# ▶ 从此处开始复制 ▼
 filters:
+  - enabled: true
+    url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+    name: AdGuard DNS filter
+    id: 1
+  # ...（完整规则配置）
+# ◀ 复制到此结束 ▲
+
 - enabled: true
   url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
   name: AdGuard DNS filter
