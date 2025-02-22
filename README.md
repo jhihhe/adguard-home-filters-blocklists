@@ -19,16 +19,8 @@
 2. 定位到 `手动设置` -> `filters:` 配置段
 3. 复制以下配置内容插入到指定位置：
 
-```yaml
-# ▶ 从此处开始复制 ▼
-filters:
-  - enabled: true
-    url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-    name: AdGuard DNS filter
-    id: 1
-  # ...（完整规则配置）
-# ◀ 复制到此结束 ▲
 
+filters:
 - enabled: true
   url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
   name: AdGuard DNS filter
