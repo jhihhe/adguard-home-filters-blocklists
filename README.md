@@ -1,9 +1,43 @@
+<!-- readme-visuals:header:start -->
+<p align="center"><img src="readme-assets/banner.svg" alt="AdGuard Home — A collection of DNS filtering sources" width="100%"></p>
+
+<p align="center">
+  <a href="https://github.com/jhihhe/adguard-home-filters-blocklists/commits/main"><img src="https://img.shields.io/github/last-commit/jhihhe/adguard-home-filters-blocklists?style=flat-square&amp;color=4ade80" alt="Last commit"></a>
+  <a href="https://github.com/jhihhe/adguard-home-filters-blocklists/stargazers"><img src="https://img.shields.io/github/stars/jhihhe/adguard-home-filters-blocklists?style=flat-square&amp;color=4ade80" alt="GitHub stars"></a>
+  <a href="https://github.com/jhihhe"><img src="https://img.shields.io/badge/Maintainer-%40Jhih%20he-4ade80?style=flat-square" alt="Maintainer: @Jhih he"></a>
+</p>
+<!-- readme-visuals:header:end -->
+
 # 🛡️ AdGuard Home Filters Blocklists
 
 [![GitHub Stars](https://img.shields.io/github/stars/yourusername/adguard-home-filters-blocklists?style=flat-square)](https://github.com/yourusername/adguard-home-filters-blocklists/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
 > 全网最全面的 AdGuard Home 过滤规则集合，累计收录近 **200万条** 规则
+
+<!-- readme-visuals:overview:start -->
+
+## 项目速览
+
+<table>
+<tr>
+<td width="33%"><strong>规则集合</strong><br><br>汇集多来源 DNS 过滤规则。</td>
+<td width="33%"><strong>多种分类</strong><br><br>广告、隐私及恶意域名相关列表。</td>
+<td width="33%"><strong>手动配置</strong><br><br>按需选择规则并配置 AdGuard Home。</td>
+</tr>
+</table>
+
+### 流程概览
+
+```mermaid
+flowchart LR
+    S0["阅读规则说明"] --> S1
+    S1["按需选择来源"] --> S2
+    S2["配置 AdGuard Home"] --> S3
+    S3["检查过滤结果"]
+```
+
+<!-- readme-visuals:overview:end -->
 
 ## 📦 特性亮点
 
